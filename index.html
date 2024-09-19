@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>random web page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: url("test.png");
+            background-size: cover; 
+            background-position: center;
+            background-repeat: no-repeat; 
+            animation: rotate 12s linear infinite;
+        }
+        @keyframes rotate {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes colorChange {
+            0% {
+                color: yellow; 
+            }
+            50% {
+                color: white; 
+            }
+            100% {
+                color: yellow; 
+            }
+        }
+        h1 {
+            color: #fcfcfc;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        p{
+            animation: colorChange 2s linear infinite;
+        }
+    </style>
+</head>
+<body>
+    <h1>啊? 你是怎么找到这里的</h1>
+    <p>下面有个按钮要不要按一下试试...</p>
+    <a href="https://youtu.be/dQw4w9WgXcQ?si=reoJt0aXil4VAmjB" style="display: inline-block; 
+    height: 50px; width: 100px; text-align: center; line-height: 50px; 
+    background-color: #007BFF; color: white; 
+    text-decoration: none; border-radius: 5px; user-select: none;">Click Me!</a>
+
+    
+</body>
+</html>
